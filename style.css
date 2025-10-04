@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #20232a;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #282c34;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  width: 100%;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: none;
+  background: #61dafb;
+  color: #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#generate {
+  width: 100%;
+}
+
+#password {
+  margin-top: 0.7rem;
+  width: 100%;
+  padding: 0.4rem;
+  text-align: center;
+}
+
+.output {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.7rem;
+  margin-bottom: 10px;
+}
+
+#copy {
+  padding: 0.4rem 0.6rem;
+  background: #61dafb;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#copy:hover {
+  background: #4cc0e0;
+}
