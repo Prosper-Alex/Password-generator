@@ -59,4 +59,6 @@ function copyPassword() {
   }, 1500);
 }
 
+// Copy password generated 
+
 navigator.clipboard.writeText(passwordEl.value);
