@@ -1,10 +1,12 @@
 'use strict';
 
+// Passwords
 const lowerCase = 'abcdefghijklmnopqrstuvwxyz';
 const upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const numbers = '0123456789';
 const symbols = '!@#$%^&*()_+~`|}{[]:;?><,./-=';
 
+// Elements
 const lengthEl = document.getElementById('length');
 const lowerEl = document.getElementById('include-lower');
 const upperEl = document.getElementById('include-upper');
@@ -14,6 +16,7 @@ const passwordEl = document.getElementById('password');
 const generateBtn = document.getElementById('generate');
 const copyBtn = document.getElementById('copy');
 
+// Click event
 generateBtn.addEventListener('click', generatePassword);
 copyBtn.addEventListener('click', copyPassword);
 
